@@ -10,14 +10,25 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self loadJSONData];
+}@property(nonatomic,copy)NSString
+/**
+ *  加载json数据
+ */
+-(void)loadJSONData
+{
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
